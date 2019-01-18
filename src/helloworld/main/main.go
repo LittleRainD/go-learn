@@ -25,5 +25,7 @@ func main() {
 	fmt.Println("必须加上分号")
 	testType.Numer()
 	testType.NamePutOutStringHandler()
-}
 
+	//运算符
+	testType.MathSymbol()
+}
