@@ -9,7 +9,7 @@ package main
  */
 import (
 	"fmt"
-	"helloworld"
+	"helloworld/testType"
 )
 
 /**
@@ -23,5 +23,7 @@ func main() {
 	//GO语言中末尾可以省略分号 “;”，编译器会自动加上，但是如果俩个语句写在同一行，则必须人为加上
 	fmt.Print("在一行的话,")
 	fmt.Println("必须加上分号")
-	helloworld.Aaa()
+	testType.Numer()
+	testType.NamePutOutStringHandler()
 }
+
