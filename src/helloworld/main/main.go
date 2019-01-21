@@ -8,7 +8,6 @@ package main
  *	import "fmt" 告诉 Go 编译器这个程序需要使用 fmt 包（的函数，或其他元素），fmt 包实现了格式化 IO（输入/输出）的函数
  */
 import (
-	"fmt"
 	"helloworld/testType"
 )
 
@@ -18,13 +17,13 @@ import (
  */
 func main() {
 
-	fmt.Println("Hello, World!")
-	fmt.Println("this is a test program")
-	//GO语言中末尾可以省略分号 “;”，编译器会自动加上，但是如果俩个语句写在同一行，则必须人为加上
-	fmt.Print("在一行的话,")
-	fmt.Println("必须加上分号")
-	testType.Numer()
-	testType.NamePutOutStringHandler()
+	//fmt.Println("Hello, World!")
+	//fmt.Println("this is a test program")
+	////GO语言中末尾可以省略分号 “;”，编译器会自动加上，但是如果俩个语句写在同一行，则必须人为加上
+	//fmt.Print("在一行的话,")
+	//fmt.Println("必须加上分号")
+	//testType.Numer()
+	//testType.NamePutOutStringHandler()
 
 	//运算符
 	testType.MathSymbol()
